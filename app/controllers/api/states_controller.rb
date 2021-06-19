@@ -7,7 +7,7 @@ class Api::StatesController < ApplicationController
 
   end
   def index
-    @states = csv
+    @state = csv
     render "index.json.jb"
   end
 end
