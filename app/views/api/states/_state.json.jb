@@ -1,0 +1,7 @@
+{
+  state: state.name,
+  median_household_income: state.median_household_income,
+  share_unemployed_seasonal: state.share_unemployed_seasona,
+  share_population_in_metro_areas: state.share_population_in_metro_areas,
+  share_population_with_high_school_degree: state.share_population_with_high_school_degree
+}
