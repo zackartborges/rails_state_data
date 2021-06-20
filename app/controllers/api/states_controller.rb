@@ -16,4 +16,8 @@ require 'csv'
   end
   render json: @states
   end
+
+  def show
+
+  end
 end
