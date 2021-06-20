@@ -112,6 +112,10 @@ GEM
     nokogiri (1.11.7-x86_64-darwin)
       racc (~> 1.4)
     pg (1.2.3)
+    postgres-copy (1.5.0)
+      activerecord (>= 5.1)
+      pg (>= 0.17)
+      responders
     public_suffix (4.0.6)
     puma (5.3.2)
       nio4r (~> 2.0)
@@ -153,6 +157,9 @@ GEM
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    responders (3.0.1)
+      actionpack (>= 5.0)
+      railties (>= 5.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
@@ -199,6 +206,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.3)
   pg (~> 1.1)
+  postgres-copy
   puma (~> 5.0)
   rack-cors
   rack-mini-profiler (~> 2.0)
