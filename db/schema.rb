@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_21_210022) do
+ActiveRecord::Schema.define(version: 2021_06_22_012313) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,7 +21,6 @@ ActiveRecord::Schema.define(version: 2021_06_21_210022) do
     t.string "share_unemployed_seasonal"
     t.string "share_population_in_metro_areas"
     t.string "share_population_with_high_school_degree"
-    t.string "second_state"
     t.string "abbrev"
     t.string "code"
   end

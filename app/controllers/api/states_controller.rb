@@ -7,7 +7,9 @@ require 'csv'
 render "index.json.jb"
   end
 
-  def show
-
+  def update
+    
+    
   end
+  
 end
