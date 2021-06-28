@@ -7,5 +7,11 @@ require 'csv'
 render "index.json.jb"
 
   end
+
+  def show
+    @input = params[:id]
+    @state = State.find_by(code: @input)
+    render "show.json.jb"
+  end
   
 end
