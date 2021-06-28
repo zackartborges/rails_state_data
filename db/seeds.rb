@@ -19,11 +19,11 @@ CSV.foreach("lib/abbreviations.csv") do |row|
 # first row is titles, need to bypass first row and match State.find(index)
   # p row[0]
   if row[0] == State.find(index)["state"]
-    p row[1]
+    p row[2]
     p State.find(index)["state"]
     p "-------"
     @state = State.find(index)
-    @state.abbrev = row[1]
+    @state.code = row[2]
     @state.save
     index += 1
   else
