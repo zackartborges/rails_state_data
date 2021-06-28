@@ -1,5 +1,7 @@
 {
   state: state.state,
+  state_abbrev: state.abbrev,
+  state_code: state.code,
   median_household_income: state.median_household_income,
   share_unemployed_seasonal: state.share_unemployed_seasonal,
   share_population_in_metro_areas: state.share_population_in_metro_areas,
