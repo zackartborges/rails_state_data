@@ -3,7 +3,7 @@ require 'csv'
 # require 'json'
 
   def index
-@state = State.all
+@state = State.all.order(:state)
 render "index.json.jb"
 
   end
