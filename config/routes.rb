@@ -6,5 +6,8 @@ Rails.application.routes.draw do
   namespace :api do
     get "/states" => "states#index"
     get "/states/:id" => "states#show"
+    get "/*path" => proc { [200, {}, [ActionView::Base.new.render(file: 'public/index.html')]] } 
+
+
   end
 end
